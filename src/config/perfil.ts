@@ -32,10 +32,10 @@ export const perfil = {
 
   // Proyectos: el título y la descripción de cada uno están en translations.ts (mismo orden).
   proyectos: [
-    { id: 1, tags: ["React", "Node.js", "PostgreSQL"], link: "#" },
-    { id: 2, tags: ["TypeScript", "React", "Supabase"], link: "#" },
-    { id: 3, tags: ["HTML", "CSS", "JavaScript"], link: "#" },
-    { id: 4, tags: ["Vue", "Laravel", "MySQL"], link: "#" },
+    { id: 1, tags: ["React", "TypeScript", "Supabase"], link: "https://mi-brio.vercel.app" },
+    { id: 2, tags: ["React", "TypeScript", "Web Speech API"], link: "https://nexus-tic.vercel.app" },
+    { id: 3, tags: ["React", "Vite", "Tailwind CSS"], link: "https://lu-pac.com" },
+    { id: 4, tags: ["React", "Tailwind CSS"], link: "https://minea05-company.vercel.app" },
   ],
 
   // Imágenes del equipo de trabajo (la clave coincide con el id del equipo en translations.ts).

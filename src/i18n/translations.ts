@@ -115,10 +115,10 @@ export const translations: Record<Language, Translations> = {
       description: "Proyectos seleccionados que muestran mis habilidades y pasión.",
       liveDemo: "Ver Sitio",
       items: [
-        { title: "Tienda en línea", description: "Catálogo con carrito y pagos en línea.", details: "Tienda construida con React, Node.js y PostgreSQL: búsqueda de productos, carrito, pagos y panel para administrar inventario." },
-        { title: "App de tareas en equipo", description: "Tablero colaborativo en tiempo real.", details: "Aplicación con TypeScript, React y Supabase: tableros, etiquetas, fechas límite y notificaciones para equipos pequeños." },
-        { title: "Landing para restaurante", description: "Página rápida con menú y reservaciones.", details: "Sitio con HTML, CSS y JavaScript: menú, reservaciones por WhatsApp y mapa, optimizado para buscadores y celular." },
-        { title: "Panel de métricas", description: "Dashboard de ventas y usuarios.", details: "Panel con Vue, Laravel y MySQL: gráficas, filtros por fecha y exportación a CSV." },
+        { title: "Brío", description: "App de comida, gym y hábitos que funciona sin internet.", details: "Producto propio con React, TypeScript y Supabase: registro de comida con buscador y escáner, menú semanal, rutinas de gym, hábitos y avisos push." },
+        { title: "Nexus-TIC", description: "Orientador para elegir empresa de residencia.", details: "Proyecto escolar con React y TypeScript: diagnóstico de cinco preguntas que ordena empresas por compatibilidad, con voz opcional y en dos idiomas." },
+        { title: "Lupac Industrial", description: "Catálogo de maquinaria con dominio propio.", details: "Sitio para un cliente con React, Vite y Tailwind CSS: catálogo por modelos, enfoque en SEO y publicado en lu-pac.com." },
+        { title: "Minea Company", description: "Tienda de gomitas artesanales.", details: "Sitio para una microempresa con React y Tailwind CSS: catálogo y carrito que arma el pedido para WhatsApp (hoy se conserva como muestra)." },
       ],
     },
     workspace: {
@@ -257,10 +257,10 @@ export const translations: Record<Language, Translations> = {
       description: "Selected projects that showcase my skills and passion.",
       liveDemo: "Live Demo",
       items: [
-        { title: "Online store", description: "Catalog with cart and online payments.", details: "Store built with React, Node.js and PostgreSQL: product search, cart, payments and an inventory admin panel." },
-        { title: "Team task app", description: "Real-time collaborative board.", details: "App built with TypeScript, React and Supabase: boards, labels, due dates and notifications for small teams." },
-        { title: "Restaurant landing page", description: "Fast page with menu and reservations.", details: "Site built with HTML, CSS and JavaScript: menu, WhatsApp reservations and map, optimized for search and mobile." },
-        { title: "Metrics dashboard", description: "Sales and users dashboard.", details: "Dashboard built with Vue, Laravel and MySQL: charts, date filters and CSV export." },
+        { title: "Brío", description: "Food, gym and habits app that works offline.", details: "Own product built with React, TypeScript and Supabase: food logging with search and barcode scanner, weekly menu, gym routines, habits and push notifications." },
+        { title: "Nexus-TIC", description: "Advisor to choose an internship company.", details: "School project with React and TypeScript: a five-question assessment that ranks companies by match, with optional voice and two languages." },
+        { title: "Lupac Industrial", description: "Machinery catalog on its own domain.", details: "Client site with React, Vite and Tailwind CSS: model-based catalog, SEO focus, live at lu-pac.com." },
+        { title: "Minea Company", description: "Artisan gummy candy store.", details: "Small-business site with React and Tailwind CSS: catalog and a cart that builds the WhatsApp order (now kept as a showcase)." },
       ],
     },
     workspace: {

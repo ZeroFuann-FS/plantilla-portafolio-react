@@ -1,4 +1,3 @@
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
@@ -18,10 +17,8 @@ import WorkspacePage from "@/pages/WorkspacePage";
 import ContactPage from "@/pages/ContactPage";
 import NotFound from "@/pages/NotFound";
 
-const queryClient = new QueryClient();
 
 const App = () => (
-  <QueryClientProvider client={queryClient}>
     <ThemeProvider>
       <LanguageProvider>
         <TooltipProvider>
@@ -51,7 +48,6 @@ const App = () => (
         </TooltipProvider>
       </LanguageProvider>
     </ThemeProvider>
-  </QueryClientProvider>
 );
 
 export default App;
