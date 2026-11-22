@@ -18,6 +18,8 @@
 
 </div>
 
+> La demo usa los datos de **ZeroFuann** (su autor) como ejemplo. Al usar la plantilla, cámbialos por los tuyos: nombre, foto, enlaces y proyectos.
+
 ## Qué incluye
 
 - Páginas de **inicio, sobre mí, habilidades, proyectos, espacio de trabajo** (con detalle de cada herramienta) y **contacto**.
